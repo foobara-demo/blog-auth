@@ -5,6 +5,8 @@ ruby FoobaraDemo::BlogAuth::MINIMUM_RUBY_VERSION
 
 gemspec
 
+gem "foobara-demo-blog", github: "foobara-demo/blog" # , path: "../blog"
+
 gem "foobara-dotenv-loader", "< 2.0.0"
 
 gem "rake"
