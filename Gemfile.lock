@@ -11,6 +11,7 @@ PATH
     foobara-demo-blog-auth (0.0.1)
       foobara (>= 0.0.136, < 2.0.0)
       foobara-auth (< 2.0.0)
+      foobara-demo-blog (< 2.0.0)
 
 GEM
   remote: https://rubygems.org/
