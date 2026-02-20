@@ -1,6 +1,6 @@
 module FoobaraDemo
   module BlogAuth
-    class FindBlogUserForAuthUser < Foobara::Command
+    class FindBlogUserForAuthUser < Foobara::Query
       description "Takes an auth user and returns a blog user"
 
       inputs { auth_user Foobara::Auth::Types::User, :required }
